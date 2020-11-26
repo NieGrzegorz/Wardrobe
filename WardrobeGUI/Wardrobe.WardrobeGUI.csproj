@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Wardrobe.CommonGUI\Wardrobe.CommonGUI.csproj" />
+    <ProjectReference Include="..\Wardrobe.DAL\Wardrobe.DAL.csproj" />
   </ItemGroup>
 
 </Project>

@@ -6,6 +6,10 @@ using System.Text;
 
 namespace Wardrobe.CommonGUI
 {
+    /// <summary>
+    /// Class implementing INotifyPropertyChanged pattern
+    /// Pattern enables data Binding of a property 
+    /// </summary>
     public class BindableBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
