@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows;
 using System.Windows.Input;
 using Wardrobe.BL;
 using Wardrobe.CommonGUI;
@@ -22,14 +23,14 @@ namespace WardrobeGUI.ViewModels
         public AddItemViewModel(IItemRepository itemRepository)
         {
             this.itemRepository = itemRepository;
-            addItemCommand = new DelegateCommand(AddItem);
+            AddItemCommand = new DelegateCommand(BtnTest);
         }
 
         public string ItemName { get; set; }
         public string Brand { get; set; }
         public ItemCategory SelectedCategory { get; set; }
 
-        public ICommand addItemCommand; 
+        public ICommand AddItemCommand; 
 
         private void AddItem()
         {
@@ -39,6 +40,11 @@ namespace WardrobeGUI.ViewModels
             item.Category = this.SelectedCategory;
 
             itemRepository.InsertItem(item);
+        }
+
+        private void BtnTest()
+        {
+            MessageBox.Show("Clicked");
         }
     }
 }

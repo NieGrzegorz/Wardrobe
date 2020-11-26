@@ -14,14 +14,14 @@
             <TextBlock Text="Add Item"/>
             <Button Height="100" Width="100" Content="Add Photo" Margin="30" />
             <TextBlock Text="Item name"/>
-            <TextBox x:Name="ItemName" />
+            <TextBox x:Name="ItemName" Text="{Binding ItemName}"/>
             <TextBlock Text="Brand"/>
-            <TextBox />
+            <TextBox x:Name="ItemBrand" Text="{Binding Brand}"/>
             <TextBlock Text="Category"/>
             <ComboBox>
                 <ComboBoxItem/>
             </ComboBox>
-            <Button Height="20" Width="100" Content="Add" Margin="30"/>
+            <Button Height="20" Width="100" Content="Add" Margin="30" Command="{Binding AddItemCommand}"/>
         </StackPanel>
 
     </Grid>

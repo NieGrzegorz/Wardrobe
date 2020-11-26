@@ -7,9 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wardrobe.WardrobeGUI", "War
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wardrobe.CommonGUI", "Wardrobe.CommonGUI\Wardrobe.CommonGUI.csproj", "{A4F24FC3-21A8-4F25-9595-3CEEEDBBAF9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wardrobe.BL", "Wardrobe.BL\Wardrobe.BL.csproj", "{E14997CF-1530-4C76-83FE-9A2E5D23D3DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wardrobe.BL", "Wardrobe.BL\Wardrobe.BL.csproj", "{E14997CF-1530-4C76-83FE-9A2E5D23D3DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wardrobe.DAL", "Wardrobe.DAL\Wardrobe.DAL.csproj", "{6B362104-26B7-41CA-9D0C-057F752227C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wardrobe.DAL", "Wardrobe.DAL\Wardrobe.DAL.csproj", "{6B362104-26B7-41CA-9D0C-057F752227C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{723B7B7C-F32F-4AE7-BEE6-89F867F2670F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
